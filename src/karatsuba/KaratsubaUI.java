@@ -99,7 +99,7 @@ public class KaratsubaUI extends JFrame implements ActionListener{
 		        		||Integer.parseInt(N2)<0
 		        		||Integer.parseInt(N1)<0){
 		        	JOptionPane.showMessageDialog(null, "Debes ingresar numeros superiores 1000 y menores que 2.14E9" +
-		        			" y valores mayores que cero");
+		        			" y valores mayores iii que cero");
 		        }else{
 		        BigInteger a = new BigInteger(N1);
 		        BigInteger b = new BigInteger(N2);
